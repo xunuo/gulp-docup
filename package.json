@@ -1,11 +1,19 @@
 {
   "name": "gulp-docup",
   "description": "A gulp plugin for docup",
+  "keywords": [
+    "javascript",
+    "document",
+    "api",
+    "generator"
+  ],
   "author": "xunuo <i@xunuo.com>",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "xunuo/gulp-docup",
   "dependencies" : {
     "through-gulp" : "~0.3.8",
     "docup" : "~0.2.2"
-  }
+  },
+  "analyze": true,
+  "license": "MIT"
 }
