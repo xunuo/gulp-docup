@@ -37,7 +37,7 @@ gulp.task('gulpDocUp', function(){
     .pipe(rename({
         extname: '.' + outputType
     }))
-    .pipe(gulp.dest('./output'));
+    .pipe(gulp.dest('./docs'));
 });
 
 gulp.task('default', ['gulpDocUp']);
