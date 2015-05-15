@@ -2,9 +2,10 @@
   "name": "gulp-docup",
   "description": "A gulp plugin for docup",
   "author": "xunuo <i@xunuo.com>",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": "xunuo/gulp-docup",
   "dependencies" : {
+    "through-gulp" : "~0.3.8",
     "docup" : "~0.2.2"
   }
 }
