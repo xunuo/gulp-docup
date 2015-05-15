@@ -12,7 +12,7 @@ npm install gulp-docup gulp-rename
 
 ```javascript
 var gulp = require('gulp'),
-    gulpDocUp = require('gulp-up'),
+    gulpDocUp = require('gulp-docup'),
     rename = require('gulp-rename')
     ;
 
